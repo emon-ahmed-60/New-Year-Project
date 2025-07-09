@@ -331,6 +331,7 @@
     margin: 0 auto;
     margin-top: 120px;
     padding: 80px 200px;
+    border-radius: 16px;
 }
 
 .news-section h1 {
@@ -380,5 +381,43 @@ form input[type = "button"] {
 
 footer {
     margin-top: 120px;
+    background-color: #070211;
+    padding: 120px 140px;
+    color: white;
+}
+
+footer hr {
+    margin-top: 50px;
+    color: grey;
+}
+
+.footer-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.footer-head div p {
+    margin-bottom: 5px;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.footer-icons i {
+    font-size: 32px;
+}
+
+.footer-foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
 }
 /* footer start end  */
