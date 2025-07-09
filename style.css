@@ -1,0 +1,370 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .new-year-party-section here  */
+
+.new-year-party-section {
+    background-image: url("images/Banner\ Image.png");
+    height: 600px;
+    max-width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 140px;
+    border-radius: 16px;
+}
+
+.party-section-content {
+    color: white;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 117px 344px;
+    text-align: center;
+}
+
+.party-section-content h1 {
+    font-size: 72px;
+}
+
+.party-section-content p {
+    font-size: 32px;
+}
+
+/* .new-year-party-section end  */
+
+/* .discount-section here  */
+
+.discount-section {
+    width: 802px;
+    height: 806px;
+    margin: 0 auto;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.discount-section h1 {
+    font-weight: bold;
+    font-size: 88px;
+    color: #FF0000;
+    margin-bottom: 48px;
+}
+
+.discount-section p {
+    font-weight: 500;
+    font-size: 24px;
+    color: #FF0000;
+    margin-bottom: 16px;
+}
+ 
+.discount-section h4 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #070211;
+    margin-bottom: 48px;
+}
+
+.discount-section img {
+    width: 100%;
+    height: 500px;
+}
+
+/* .discount-section end  */
+
+/* .midnight-party here  */
+
+.midnight-party {
+    background-image: url("images/Vectorrr.png");
+    height: 600px;
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    border-radius: 16px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    padding: 70px 138px;
+    color: white;
+}
+
+.midnight-party h1 {
+    font-size: 64px;
+}
+
+.midnight-party p {
+    margin: 24px 0;
+}
+
+.midnight-party span {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 32px;
+}
+
+/* .midnight-party end */
+
+/* time section here  */
+
+.time-section {
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    background: linear-gradient(160deg,#fff2f2,#FFFFFF);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.time-section div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.time-section h1 {
+    color: #FF0000;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.time-section h1 span {
+    color: #070211;
+}
+
+.time-section button {
+    color: white;
+    background-color: #FF0000;
+    padding: 16px 32px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 24px;
+}
+
+/* time section end */
+
+/* best offer section here  */
+
+.best-offer-section {
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 70px;
+}
+
+.offer-head,.offer-foot {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.offer-head h5 {
+    color: #FF0000;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.offer-head h4 {
+    color: #070211;
+    font-size: 48px;
+    margin-top: 16px;
+    margin-bottom: 22px;
+}
+
+.offer-foot h5 {
+    color: #FF0000;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.offer-foot img {
+    margin-top: 43px;
+    width: 140px;
+    height: 140px;
+}
+
+.offer-img {
+    text-align: left;
+    border: 12px solid #FF0000;
+    border-radius: 50%;
+    padding: 40px;
+}
+
+.offer-foot,.offer-head p {
+    font-size: 20px;
+}
+
+.offer-foot p {
+    margin-top: 16px;
+}
+
+/* best offer section end  */
+
+/* holiday section here  */
+
+.holiday-sale {
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.holiday-sale h5 {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.holiday-sale h2 {
+    font-size: 72px;
+    color: #FF0000;
+}
+
+.holiday-sale h2 span {
+    color: #070211;
+}
+
+.holiday-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.holiday-head p {
+    font-weight: 300;
+    font-size: 20px;
+    color: #070211;
+    text-align: center;
+}
+
+.holiday-footer {
+    width: 100%;
+}
+
+.holiday-img-1 {
+    position: relative;
+    top: 250px;
+}
+
+.holiday-img-3 {
+    height: 230px;
+}
+
+/* holiday section end  */
+
+/* .portfolio section here  */
+
+.portfolio {
+    width: 1320px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.portfolio span {
+    font-size: 24px;
+    font-weight: 600;
+    color: #FF0000;
+}
+
+.portfolio h3 {
+    color: #070211;
+    font-size: 48px;
+    margin: 15px 0;
+}
+
+.portfolio p {
+    font-size: 20px;
+    font-weight: 300;
+    max-width: 50%;
+    margin-bottom: 47px;
+}
+
+/* .portfolio section end  */
+
+/* news section here  */
+
+.news-section {
+    background-color: #fff2f2;
+    width: 1320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 120px;
+    padding: 80px 200px;
+}
+
+.news-section h1 {
+    font-size: 48px;
+    color: #070211;
+    margin: 22px 0px;
+}
+
+.news-section p {
+    font-size: 20px;
+    font-weight: 300;
+    color: #070211;
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    background-color: white;
+    border-radius: 50px;
+}
+
+form input[type = "email"] {
+    padding: 25px 30px;
+    font-size: 18px;
+    color: #070211;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+form input[type = "button"] {
+    background-color: #FF0000;
+    color: white;
+    padding: 24px 56px;
+    font-size: 20px;
+    font-weight: 600;
+    width: 210px;
+    border: none;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+}
+/* news section end  */
+
+/* footer start here  */
+
+footer {
+    margin-top: 120px;
+}
+/* footer start end  */
